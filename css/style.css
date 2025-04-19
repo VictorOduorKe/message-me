@@ -1,0 +1,100 @@
+@import './variables.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+header{
+    background-color: var(--color-black);
+    padding: 20px 0;
+    text-align: right;
+    padding:10px;
+    font-weight: 900;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav a{
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 5px;
+}
+main{
+    padding: 20px;
+}
+.login-form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-secondary);
+    padding:10px;
+    text-align: left;
+    color: var(--color-black);
+}
+.login-form label{
+    display: block;
+    margin-bottom: 5px;
+    padding:10px;
+    font-weight: 600;
+}
+.login-form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-white);
+    width:100%
+}
+.login-form input[type="submit"]{
+    background-color: var(--color-btn-primary);
+    color: var(--color-white);
+    cursor: pointer;
+}
+.login-form input[type="submit"]:hover{
+    background-color: var(--color-btn-secondary);
+}
+.login-form .error-message{
+    color: red;
+    margin-top: 10px;
+}
+.more-actions{
+    margin: 20px;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.more-actions a{
+    color: var( --color-text-green);
+    padding:10px;
+}
