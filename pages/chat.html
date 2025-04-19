@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="chat-header">
+        <nav>
+            <div class="logo-container">
+                <img src="../assets/logo.png" alt="Logo" class="logo">
+            </div>
+            <h1>ChatApplication</h1>
+            <div class="user">
+                <img src="../assets/user.png" alt="User" class="user-icon">
+                <span class="username">Username</span>
+                <a href="../index.html" class="logout">Logout</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="chat-page">
+            <aside>
+                <h1>Chats</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 1</p></a><span>12</span></li>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 2</p></a><span>12</span></li>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 3</p></a><span>12</span></li>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 4</p></a><span>12</span></li>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 5</p></a><span>12</span></li>
+                        <li><a href="#"><img src="../assets/user.png" alt=""><p>User 6</p></a><span>12</span></li>
+                    </ul>
+                    <div class="add-user">
+                        <h1>Add User</h1>
+                        <form action="">
+                            <input type="text" placeholder="Add a new user..." required>
+                            <button type="submit"><img src="../assets/add.png" alt=""></button>
+                        </form>
+                    </div>
+                </nav>
+            </aside>
+            <div class="chat-area">
+                <div class="chat-header">
+                    <h2>Chat with User 1</h2>
+                    <img src="../assets/user.png" alt="">
+                </div>
+                .
+                <div class="chat-messages">
+                    <div class="message sent">
+                        <p>Hello!, am checking to see if you arrived safely!</p>
+                        <span>10:30am</span>
+                    </div>
+                    <div class="message received">
+                        <p>Hi there!, I arrived safely and thanks for checking on me</p>
+                        <span>10:31am</span>
+                    </div>
+                    <div class="message received"><img src="../assets/image2.jpg" alt="">
+                        <p>Hi there!, I arrived safely and thanks for checking on me</p>
+                        <span>10:31am</span>
+                    </div>
+                    <div class="message sent">
+                        <img src="../assets/image1.jpg" alt="">
+                        <p>Hi there!, I arrived safely and thanks for checking on me</p>
+                        <span>10:31am</span>
+                    </div>
+                </div>
+                <form class="chat-input">
+                    <input type="text" placeholder="Type a message..." required>
+                    <label for="file-upload" class="custom-file-upload">
+                        <img src="../assets/file.png" alt="Upload" />
+                        <input id="file-upload" type="file" name="file" />
+                    </label>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <div class="details">
+                <div class="sender-details">
+                    <h2>Sender Details</h2>
+                    <p><strong>Name:</strong> User 1</p>
+                    <p><strong>Email:</strong> 6m2QW@example.com</p>
+                </div>
+                <div class="settings">
+                    <h2>Settings</h2>
+                    <p><strong>Notifications:</strong> On</p>
+                    <p><strong>Privacy:</strong> Public</p>
+                    <p><strong>Language:</strong> English</p>
+                </div>
+                <div class="help">
+                    <h2>Help</h2>
+                    <p><strong>Contact Support:</strong> 123-456-7890</p>
+                    <p><strong>FAQs:</strong> Click here for FAQs</p>
+                </div>
+                <div class="feedback">
+                    <h2>Feedback</h2>
+                    <p><strong>Rate our service:</strong></p>
+                    <div class="ratings">
+                        <form action="">
+                            <input type="hidden" id="star5" name="rating" value="5">
+                            <label for="star5" title="text" value="5">(&#9734;)</label>
+                            <input type="hidden" id="star4" name="rating" value="4">
+                            <label for="star4" title="text">(&#9734;)</label>
+                            <input type="hidden" id="star3" name="rating" value="3">
+                            <label for="star3" title="text">(&#9734;)</label>
+                            <input type="hidden" id="star2" name="rating" value="2">
+                            <label for="star2" title="text">(&#9734;)</label>
+                            <input type="hidden" id="star1" name="rating" value="1">
+                            <label for="star1" title="text"> (&#9734;)</label>
+                        </form>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+</body>
+
+</html>

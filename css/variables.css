@@ -7,6 +7,8 @@
     --color-btn-secondary: #522546;
     --color-btn-hover: #3A3A3A;
     --color-btn-secondary-hover: #6A2C4D;
+    --color-btn-disabled: #B0B0B0;
+    --color-btn-secondary-disabled: #D4C9BE;
     --color-text-green: #4CAF50;
     --color-text-red: #F44336;
 }
